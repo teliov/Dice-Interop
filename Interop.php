@@ -2,10 +2,10 @@
 namespace Dice\Interop;
 use Dice\Dice;
 use Interop\Container\ContainerInterface;
-use Interop\Container\Exception\NotFoundException;
+use Dice\Interop\Exception\NotFoundException;
 
 class Interop implements ContainerInterface {
-    private $dice;
+    public $dice;
 
     public function __construct(Dice $dice) {
         $this->dice = $dice;
