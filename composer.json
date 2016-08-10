@@ -10,7 +10,7 @@
     	}
     ],
     "require": {
-        "level-2/dice": "2.0.3",
+        "level-2/dice": "dev-master",
         "container-interop/container-interop" : "1.1.0"
     },
     "autoload": {
